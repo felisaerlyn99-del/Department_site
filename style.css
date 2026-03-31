@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #e3f2fd, #ffffff);
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(to right, #42a5f5, #90caf9);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* NAVBAR */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* CONTENT */
+.container {
+    padding: 30px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    max-width: 900px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th {
+    background: #42a5f5;
+    color: white;
+}
+
+th, td {
+    border: 1px solid #90caf9;
+    padding: 10px;
+    text-align: center;
+}
+
+/* LIST */
+ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #bbdefb;
+    margin-top: 20px;
+}
+/* BUTTON */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    background: linear-gradient(to right, #42a5f5, #90caf9);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: linear-gradient(to right, #1e88e5, #64b5f6);
+    transform: scale(1.05);
+}
+
+/* CENTER BUTTON */
+.btn-center {
+    text-align: center;
+    margin-top: 20px;
+}
